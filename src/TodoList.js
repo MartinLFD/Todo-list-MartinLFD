@@ -51,7 +51,7 @@ return <>
                 
                 {list.map((item, index) => (
                     <li key={index}>{item}
-                    <button id="removeButton" onClick={() => handleOnDelete(index)}> X </button></li>
+                    <button className="removeButton" onClick={() => handleOnDelete(index)}> X </button></li>
                 ))}
                 
                 
